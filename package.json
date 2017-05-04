@@ -4,7 +4,9 @@
   "description": "Fetches careers for all mps",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "fetch": "METHOD=fetch node index.js",
+    "process": "METHOD=process node index.js",
+    "test": "jest"
   },
   "author": "baering",
   "license": "MIT",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.4.0",
-    "babel-register": "^6.24.1"
+    "babel-register": "^6.24.1",
+    "jest": "^19.0.2"
   }
 }

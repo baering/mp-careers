@@ -38,3 +38,32 @@ export function writeFile(fileName, data) {
     })
   })
 }
+
+const validCharacters = 'AÁBDÐEÉFGHIÍJKLMNOÓPRSTUÚVXYÝÞÆÖaábdðeéfghiíjklmnoóprstuúvxyýþæö'
+const validCharacterLookup = {}
+validCharacters.split('').forEach(char => validCharacterLookup[char] = true)
+
+export function cleanString(source, opts) {
+  let ignoreSpace = false
+  if (opts) {
+    if (opts.ignoreSpace !== undefined && opts.ignoreSpace === true) {
+      ignoreSpace = true
+    }
+  }
+
+  return source.split('').filter(char => {
+    if (char.length === 0) {
+      return false
+    }
+
+    if (char === ' ') {
+      if (ignoreSpace) {
+        return false
+      } else {
+        return true
+      }
+    }
+
+    return validCharacterLookup[char]
+  }).join('')
+}
