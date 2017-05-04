@@ -189,7 +189,7 @@ export function guessCareer(careerString) {
   const career = cleanString(careerString.toLowerCase())
 
   if (isPolititian(career)) {
-    return 'polititian'
+    return 'politician'
   } else if (isExecutive(career)) {
     return 'executive'
   } else if (isCivilService(career)) {

@@ -4,7 +4,7 @@
     "careers": {
       "manual_worker": 12,
       "executive": 10,
-      "polititian": 6,
+      "politician": 6,
       "white_collar": 7,
       "teacher": 1
     },
@@ -15,7 +15,7 @@
     "careers": {
       "manual_worker": 11,
       "executive": 10,
-      "polititian": 5,
+      "politician": 5,
       "white_collar": 6,
       "teacher": 1
     },
@@ -25,7 +25,7 @@
     "year": 1877,
     "careers": {
       "white_collar": 7,
-      "polititian": 7,
+      "politician": 7,
       "manual_worker": 11,
       "executive": 10,
       "teacher": 1
@@ -36,7 +36,7 @@
     "year": 1878,
     "careers": {
       "white_collar": 7,
-      "polititian": 7,
+      "politician": 7,
       "manual_worker": 9,
       "executive": 8,
       "teacher": 1
@@ -47,7 +47,7 @@
     "year": 1879,
     "careers": {
       "white_collar": 7,
-      "polititian": 8,
+      "politician": 8,
       "manual_worker": 10,
       "executive": 9,
       "teacher": 1
@@ -58,7 +58,7 @@
     "year": 1880,
     "careers": {
       "white_collar": 5,
-      "polititian": 7,
+      "politician": 7,
       "manual_worker": 6,
       "executive": 5,
       "teacher": 1
@@ -69,7 +69,7 @@
     "year": 1881,
     "careers": {
       "white_collar": 9,
-      "polititian": 8,
+      "politician": 8,
       "manual_worker": 9,
       "executive": 9,
       "teacher": 2
@@ -80,7 +80,7 @@
     "year": 1882,
     "careers": {
       "white_collar": 8,
-      "polititian": 7,
+      "politician": 7,
       "manual_worker": 9,
       "executive": 9,
       "teacher": 2
@@ -91,7 +91,7 @@
     "year": 1883,
     "careers": {
       "white_collar": 9,
-      "polititian": 7,
+      "politician": 7,
       "manual_worker": 9,
       "executive": 9,
       "unknown": 1,
@@ -103,7 +103,7 @@
     "year": 1884,
     "careers": {
       "white_collar": 8,
-      "polititian": 6,
+      "politician": 6,
       "manual_worker": 8,
       "executive": 9,
       "unknown": 1,
@@ -115,7 +115,7 @@
     "year": 1885,
     "careers": {
       "white_collar": 10,
-      "polititian": 7,
+      "politician": 7,
       "manual_worker": 8,
       "executive": 9,
       "unknown": 1,
@@ -127,7 +127,7 @@
     "year": 1886,
     "careers": {
       "white_collar": 14,
-      "polititian": 10,
+      "politician": 10,
       "executive": 10,
       "manual_worker": 6,
       "unknown": 1,
@@ -139,7 +139,7 @@
     "year": 1887,
     "careers": {
       "white_collar": 14,
-      "polititian": 10,
+      "politician": 10,
       "executive": 11,
       "manual_worker": 6,
       "unknown": 1,
@@ -151,7 +151,7 @@
     "year": 1888,
     "careers": {
       "white_collar": 14,
-      "polititian": 10,
+      "politician": 10,
       "executive": 11,
       "manual_worker": 6,
       "unknown": 1,
@@ -163,7 +163,7 @@
     "year": 1889,
     "careers": {
       "white_collar": 14,
-      "polititian": 10,
+      "politician": 10,
       "executive": 11,
       "manual_worker": 7,
       "unknown": 1,
@@ -175,7 +175,7 @@
     "year": 1890,
     "careers": {
       "white_collar": 13,
-      "polititian": 10,
+      "politician": 10,
       "executive": 10,
       "manual_worker": 5,
       "unknown": 1,
@@ -187,7 +187,7 @@
     "year": 1891,
     "careers": {
       "white_collar": 15,
-      "polititian": 12,
+      "politician": 12,
       "executive": 11,
       "manual_worker": 5,
       "unknown": 1,
@@ -199,7 +199,7 @@
     "year": 1892,
     "careers": {
       "white_collar": 11,
-      "polititian": 8,
+      "politician": 8,
       "executive": 11,
       "teacher": 2,
       "manual_worker": 2
@@ -210,7 +210,7 @@
     "year": 1893,
     "careers": {
       "white_collar": 13,
-      "polititian": 12,
+      "politician": 12,
       "executive": 14,
       "manual_worker": 6,
       "teacher": 2,
@@ -222,7 +222,7 @@
     "year": 1894,
     "careers": {
       "white_collar": 14,
-      "polititian": 12,
+      "politician": 12,
       "manual_worker": 6,
       "executive": 13,
       "teacher": 2,
@@ -234,7 +234,7 @@
     "year": 1895,
     "careers": {
       "white_collar": 13,
-      "polititian": 12,
+      "politician": 12,
       "manual_worker": 6,
       "executive": 14,
       "teacher": 2,
@@ -246,7 +246,7 @@
     "year": 1896,
     "careers": {
       "white_collar": 13,
-      "polititian": 12,
+      "politician": 12,
       "manual_worker": 6,
       "executive": 14,
       "teacher": 2,
@@ -258,7 +258,7 @@
     "year": 1897,
     "careers": {
       "white_collar": 13,
-      "polititian": 12,
+      "politician": 12,
       "manual_worker": 6,
       "executive": 14,
       "teacher": 2,
@@ -270,7 +270,7 @@
     "year": 1898,
     "careers": {
       "white_collar": 13,
-      "polititian": 11,
+      "politician": 11,
       "manual_worker": 6,
       "executive": 13,
       "teacher": 2,
@@ -282,7 +282,7 @@
     "year": 1899,
     "careers": {
       "white_collar": 13,
-      "polititian": 11,
+      "politician": 11,
       "manual_worker": 6,
       "executive": 13,
       "teacher": 2,
@@ -294,7 +294,7 @@
     "year": 1900,
     "careers": {
       "white_collar": 11,
-      "polititian": 9,
+      "politician": 9,
       "manual_worker": 5,
       "executive": 10,
       "teacher": 1,
@@ -306,7 +306,7 @@
     "year": 1901,
     "careers": {
       "white_collar": 11,
-      "polititian": 16,
+      "politician": 16,
       "manual_worker": 7,
       "executive": 12,
       "teacher": 3,
@@ -319,7 +319,7 @@
     "careers": {
       "manual_worker": 7,
       "white_collar": 12,
-      "polititian": 16,
+      "politician": 16,
       "executive": 14,
       "teacher": 3
     },
@@ -329,7 +329,7 @@
     "year": 1903,
     "careers": {
       "white_collar": 12,
-      "polititian": 16,
+      "politician": 16,
       "executive": 12,
       "manual_worker": 4,
       "teacher": 4
@@ -340,7 +340,7 @@
     "year": 1904,
     "careers": {
       "white_collar": 11,
-      "polititian": 14,
+      "politician": 14,
       "executive": 12,
       "manual_worker": 4,
       "teacher": 4
@@ -352,7 +352,7 @@
     "careers": {
       "executive": 15,
       "white_collar": 12,
-      "polititian": 14,
+      "politician": 14,
       "teacher": 5,
       "manual_worker": 4
     },
@@ -363,7 +363,7 @@
     "careers": {
       "executive": 15,
       "white_collar": 12,
-      "polititian": 14,
+      "politician": 14,
       "teacher": 5,
       "manual_worker": 4
     },
@@ -374,7 +374,7 @@
     "careers": {
       "executive": 15,
       "white_collar": 12,
-      "polititian": 15,
+      "politician": 15,
       "teacher": 5,
       "manual_worker": 4
     },
@@ -386,7 +386,7 @@
       "executive": 11,
       "manual_worker": 2,
       "white_collar": 7,
-      "polititian": 13,
+      "politician": 13,
       "teacher": 3
     },
     "numberOfActiveMps": 36
@@ -394,7 +394,7 @@
   {
     "year": 1909,
     "careers": {
-      "polititian": 15,
+      "politician": 15,
       "executive": 15,
       "manual_worker": 4,
       "teacher": 6,
@@ -405,7 +405,7 @@
   {
     "year": 1910,
     "careers": {
-      "polititian": 15,
+      "politician": 15,
       "executive": 15,
       "manual_worker": 4,
       "teacher": 6,
@@ -416,7 +416,7 @@
   {
     "year": 1911,
     "careers": {
-      "polititian": 15,
+      "politician": 15,
       "executive": 15,
       "manual_worker": 4,
       "teacher": 6,
@@ -430,7 +430,7 @@
       "executive": 16,
       "teacher": 7,
       "white_collar": 10,
-      "polititian": 14,
+      "politician": 14,
       "manual_worker": 3
     },
     "numberOfActiveMps": 50
@@ -441,7 +441,7 @@
       "executive": 14,
       "teacher": 7,
       "white_collar": 9,
-      "polititian": 14,
+      "politician": 14,
       "manual_worker": 4
     },
     "numberOfActiveMps": 48
@@ -453,7 +453,7 @@
       "manual_worker": 7,
       "teacher": 6,
       "white_collar": 9,
-      "polititian": 14
+      "politician": 14
     },
     "numberOfActiveMps": 50
   },
@@ -464,7 +464,7 @@
       "manual_worker": 7,
       "teacher": 6,
       "white_collar": 9,
-      "polititian": 13
+      "politician": 13
     },
     "numberOfActiveMps": 49
   },
@@ -475,7 +475,7 @@
       "manual_worker": 8,
       "white_collar": 7,
       "teacher": 5,
-      "polititian": 12,
+      "politician": 12,
       "barrister": 1
     },
     "numberOfActiveMps": 47
@@ -487,7 +487,7 @@
       "manual_worker": 8,
       "white_collar": 7,
       "teacher": 5,
-      "polititian": 12,
+      "politician": 12,
       "barrister": 1
     },
     "numberOfActiveMps": 47
@@ -499,7 +499,7 @@
       "manual_worker": 9,
       "white_collar": 7,
       "teacher": 5,
-      "polititian": 12
+      "politician": 12
     },
     "numberOfActiveMps": 47
   },
@@ -510,7 +510,7 @@
       "manual_worker": 9,
       "white_collar": 7,
       "teacher": 5,
-      "polititian": 12
+      "politician": 12
     },
     "numberOfActiveMps": 47
   },
@@ -521,7 +521,7 @@
       "manual_worker": 8,
       "white_collar": 7,
       "teacher": 4,
-      "polititian": 14
+      "politician": 14
     },
     "numberOfActiveMps": 50
   },
@@ -532,7 +532,7 @@
       "manual_worker": 8,
       "white_collar": 7,
       "teacher": 4,
-      "polititian": 14,
+      "politician": 14,
       "civil_service": 1
     },
     "numberOfActiveMps": 52
@@ -544,7 +544,7 @@
       "manual_worker": 8,
       "white_collar": 7,
       "teacher": 3,
-      "polititian": 15,
+      "politician": 15,
       "civil_service": 1
     },
     "numberOfActiveMps": 53
@@ -556,7 +556,7 @@
       "manual_worker": 7,
       "white_collar": 7,
       "teacher": 3,
-      "polititian": 14,
+      "politician": 14,
       "civil_service": 1
     },
     "numberOfActiveMps": 51
@@ -565,7 +565,7 @@
     "year": 1924,
     "careers": {
       "executive": 23,
-      "polititian": 15,
+      "politician": 15,
       "white_collar": 3,
       "manual_worker": 5,
       "teacher": 3,
@@ -577,7 +577,7 @@
     "year": 1925,
     "careers": {
       "executive": 23,
-      "polititian": 15,
+      "politician": 15,
       "white_collar": 3,
       "manual_worker": 5,
       "teacher": 3,
@@ -590,7 +590,7 @@
     "careers": {
       "manual_worker": 5,
       "executive": 22,
-      "polititian": 15,
+      "politician": 15,
       "white_collar": 3,
       "teacher": 3,
       "civil_service": 1
@@ -601,7 +601,7 @@
     "year": 1927,
     "careers": {
       "executive": 24,
-      "polititian": 13,
+      "politician": 13,
       "manual_worker": 4,
       "teacher": 3,
       "white_collar": 3,
@@ -613,7 +613,7 @@
     "year": 1928,
     "careers": {
       "executive": 27,
-      "polititian": 11,
+      "politician": 11,
       "manual_worker": 3,
       "teacher": 3,
       "white_collar": 3,
@@ -625,7 +625,7 @@
     "year": 1929,
     "careers": {
       "executive": 26,
-      "polititian": 11,
+      "politician": 11,
       "manual_worker": 4,
       "teacher": 3,
       "white_collar": 3,
@@ -637,7 +637,7 @@
     "year": 1930,
     "careers": {
       "executive": 26,
-      "polititian": 11,
+      "politician": 11,
       "manual_worker": 4,
       "teacher": 3,
       "white_collar": 3,
@@ -649,7 +649,7 @@
     "year": 1931,
     "careers": {
       "executive": 31,
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 4,
       "manual_worker": 4,
       "teacher": 3,
@@ -661,7 +661,7 @@
     "year": 1932,
     "careers": {
       "executive": 27,
-      "polititian": 11,
+      "politician": 11,
       "white_collar": 4,
       "manual_worker": 3,
       "teacher": 2,
@@ -673,7 +673,7 @@
     "year": 1933,
     "careers": {
       "executive": 29,
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 4,
       "manual_worker": 5,
       "teacher": 2,
@@ -685,7 +685,7 @@
     "year": 1934,
     "careers": {
       "executive": 34,
-      "polititian": 14,
+      "politician": 14,
       "white_collar": 3,
       "manual_worker": 2,
       "teacher": 1,
@@ -697,7 +697,7 @@
     "year": 1935,
     "careers": {
       "executive": 34,
-      "polititian": 14,
+      "politician": 14,
       "white_collar": 3,
       "manual_worker": 2,
       "teacher": 1,
@@ -709,7 +709,7 @@
     "year": 1936,
     "careers": {
       "executive": 34,
-      "polititian": 14,
+      "politician": 14,
       "white_collar": 3,
       "manual_worker": 2,
       "teacher": 1,
@@ -721,7 +721,7 @@
     "year": 1937,
     "careers": {
       "executive": 39,
-      "polititian": 14,
+      "politician": 14,
       "white_collar": 5,
       "manual_worker": 2,
       "teacher": 2,
@@ -733,7 +733,7 @@
     "year": 1938,
     "careers": {
       "executive": 35,
-      "polititian": 10,
+      "politician": 10,
       "white_collar": 5,
       "manual_worker": 2,
       "teacher": 2,
@@ -745,7 +745,7 @@
     "year": 1939,
     "careers": {
       "executive": 35,
-      "polititian": 11,
+      "politician": 11,
       "white_collar": 4,
       "manual_worker": 2,
       "teacher": 2,
@@ -757,7 +757,7 @@
     "year": 1940,
     "careers": {
       "executive": 34,
-      "polititian": 11,
+      "politician": 11,
       "white_collar": 4,
       "manual_worker": 2,
       "teacher": 2,
@@ -769,7 +769,7 @@
     "year": 1941,
     "careers": {
       "executive": 35,
-      "polititian": 10,
+      "politician": 10,
       "white_collar": 4,
       "manual_worker": 2,
       "teacher": 2,
@@ -780,7 +780,7 @@
   {
     "year": 1942,
     "careers": {
-      "polititian": 16,
+      "politician": 16,
       "executive": 43,
       "teacher": 4,
       "white_collar": 5,
@@ -792,7 +792,7 @@
   {
     "year": 1943,
     "careers": {
-      "polititian": 13,
+      "politician": 13,
       "teacher": 3,
       "executive": 37,
       "white_collar": 3,
@@ -804,7 +804,7 @@
   {
     "year": 1944,
     "careers": {
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 4,
       "teacher": 3,
       "executive": 37,
@@ -816,7 +816,7 @@
   {
     "year": 1945,
     "careers": {
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 6,
       "teacher": 3,
       "executive": 37,
@@ -828,7 +828,7 @@
   {
     "year": 1946,
     "careers": {
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 6,
       "teacher": 4,
       "executive": 40,
@@ -841,7 +841,7 @@
     "year": 1947,
     "careers": {
       "executive": 38,
-      "polititian": 14,
+      "politician": 14,
       "civil_service": 2,
       "white_collar": 6,
       "teacher": 6,
@@ -853,7 +853,7 @@
     "year": 1948,
     "careers": {
       "executive": 37,
-      "polititian": 12,
+      "politician": 12,
       "civil_service": 2,
       "white_collar": 6,
       "teacher": 6,
@@ -864,7 +864,7 @@
   {
     "year": 1949,
     "careers": {
-      "polititian": 14,
+      "politician": 14,
       "civil_service": 3,
       "manual_worker": 4,
       "white_collar": 7,
@@ -876,7 +876,7 @@
   {
     "year": 1950,
     "careers": {
-      "polititian": 15,
+      "politician": 15,
       "manual_worker": 5,
       "white_collar": 5,
       "executive": 37,
@@ -889,7 +889,7 @@
     "year": 1951,
     "careers": {
       "manual_worker": 4,
-      "polititian": 15,
+      "politician": 15,
       "white_collar": 5,
       "executive": 35,
       "teacher": 4,
@@ -901,7 +901,7 @@
     "year": 1952,
     "careers": {
       "manual_worker": 4,
-      "polititian": 14,
+      "politician": 14,
       "white_collar": 5,
       "executive": 35,
       "teacher": 4,
@@ -913,7 +913,7 @@
     "year": 1953,
     "careers": {
       "manual_worker": 4,
-      "polititian": 14,
+      "politician": 14,
       "white_collar": 4,
       "executive": 39,
       "teacher": 4,
@@ -925,7 +925,7 @@
     "year": 1954,
     "careers": {
       "manual_worker": 3,
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 4,
       "executive": 37,
       "teacher": 4,
@@ -937,7 +937,7 @@
     "year": 1955,
     "careers": {
       "manual_worker": 4,
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 5,
       "executive": 38,
       "teacher": 4,
@@ -950,7 +950,7 @@
     "careers": {
       "white_collar": 5,
       "manual_worker": 4,
-      "polititian": 16,
+      "politician": 16,
       "executive": 46,
       "teacher": 4,
       "civil_service": 2
@@ -961,7 +961,7 @@
     "year": 1957,
     "careers": {
       "white_collar": 5,
-      "polititian": 16,
+      "politician": 16,
       "manual_worker": 4,
       "executive": 46,
       "barrister": 1,
@@ -974,7 +974,7 @@
     "careers": {
       "white_collar": 4,
       "executive": 48,
-      "polititian": 16,
+      "politician": 16,
       "manual_worker": 3,
       "barrister": 1,
       "teacher": 3
@@ -984,7 +984,7 @@
   {
     "year": 1959,
     "careers": {
-      "polititian": 20,
+      "politician": 20,
       "white_collar": 5,
       "manual_worker": 7,
       "executive": 57,
@@ -997,7 +997,7 @@
   {
     "year": 1960,
     "careers": {
-      "polititian": 20,
+      "politician": 20,
       "white_collar": 5,
       "manual_worker": 9,
       "executive": 57,
@@ -1009,7 +1009,7 @@
   {
     "year": 1961,
     "careers": {
-      "polititian": 20,
+      "politician": 20,
       "white_collar": 6,
       "manual_worker": 10,
       "executive": 56,
@@ -1021,7 +1021,7 @@
   {
     "year": 1962,
     "careers": {
-      "polititian": 20,
+      "politician": 20,
       "white_collar": 6,
       "manual_worker": 11,
       "executive": 55,
@@ -1033,7 +1033,7 @@
   {
     "year": 1963,
     "careers": {
-      "polititian": 19,
+      "politician": 19,
       "white_collar": 5,
       "executive": 60,
       "manual_worker": 11,
@@ -1046,7 +1046,7 @@
     "year": 1964,
     "careers": {
       "white_collar": 5,
-      "polititian": 18,
+      "politician": 18,
       "executive": 61,
       "manual_worker": 12,
       "teacher": 4,
@@ -1058,7 +1058,7 @@
     "year": 1965,
     "careers": {
       "white_collar": 4,
-      "polititian": 18,
+      "politician": 18,
       "executive": 63,
       "manual_worker": 11,
       "teacher": 5,
@@ -1070,7 +1070,7 @@
     "year": 1966,
     "careers": {
       "white_collar": 4,
-      "polititian": 17,
+      "politician": 17,
       "executive": 59,
       "manual_worker": 11,
       "teacher": 4,
@@ -1082,7 +1082,7 @@
     "year": 1967,
     "careers": {
       "white_collar": 3,
-      "polititian": 17,
+      "politician": 17,
       "executive": 61,
       "manual_worker": 10,
       "teacher": 4,
@@ -1093,7 +1093,7 @@
   {
     "year": 1968,
     "careers": {
-      "polititian": 15,
+      "politician": 15,
       "executive": 64,
       "manual_worker": 13,
       "teacher": 4,
@@ -1106,7 +1106,7 @@
   {
     "year": 1969,
     "careers": {
-      "polititian": 16,
+      "politician": 16,
       "executive": 67,
       "manual_worker": 12,
       "teacher": 4,
@@ -1119,7 +1119,7 @@
   {
     "year": 1970,
     "careers": {
-      "polititian": 16,
+      "politician": 16,
       "executive": 62,
       "manual_worker": 10,
       "teacher": 4,
@@ -1132,7 +1132,7 @@
   {
     "year": 1971,
     "careers": {
-      "polititian": 17,
+      "politician": 17,
       "executive": 67,
       "manual_worker": 13,
       "teacher": 7,
@@ -1144,7 +1144,7 @@
   {
     "year": 1972,
     "careers": {
-      "polititian": 15,
+      "politician": 15,
       "executive": 58,
       "manual_worker": 11,
       "teacher": 9,
@@ -1157,7 +1157,7 @@
   {
     "year": 1973,
     "careers": {
-      "polititian": 13,
+      "politician": 13,
       "executive": 57,
       "manual_worker": 11,
       "teacher": 8,
@@ -1170,7 +1170,7 @@
     "year": 1974,
     "careers": {
       "athlete": 1,
-      "polititian": 14,
+      "politician": 14,
       "executive": 62,
       "manual_worker": 14,
       "teacher": 11,
@@ -1183,7 +1183,7 @@
     "year": 1975,
     "careers": {
       "athlete": 1,
-      "polititian": 10,
+      "politician": 10,
       "executive": 57,
       "manual_worker": 14,
       "teacher": 9,
@@ -1196,7 +1196,7 @@
     "year": 1976,
     "careers": {
       "athlete": 1,
-      "polititian": 10,
+      "politician": 10,
       "executive": 55,
       "manual_worker": 13,
       "teacher": 9,
@@ -1209,7 +1209,7 @@
     "year": 1977,
     "careers": {
       "athlete": 1,
-      "polititian": 10,
+      "politician": 10,
       "executive": 53,
       "manual_worker": 10,
       "teacher": 9,
@@ -1222,7 +1222,7 @@
     "year": 1978,
     "careers": {
       "athlete": 1,
-      "polititian": 11,
+      "politician": 11,
       "executive": 64,
       "manual_worker": 13,
       "teacher": 11,
@@ -1235,7 +1235,7 @@
     "year": 1979,
     "careers": {
       "athlete": 1,
-      "polititian": 10,
+      "politician": 10,
       "executive": 58,
       "manual_worker": 11,
       "teacher": 10,
@@ -1248,7 +1248,7 @@
     "year": 1980,
     "careers": {
       "athlete": 1,
-      "polititian": 10,
+      "politician": 10,
       "executive": 54,
       "teacher": 10,
       "manual_worker": 12,
@@ -1261,7 +1261,7 @@
     "year": 1981,
     "careers": {
       "athlete": 1,
-      "polititian": 10,
+      "politician": 10,
       "executive": 57,
       "teacher": 8,
       "manual_worker": 11,
@@ -1274,7 +1274,7 @@
     "year": 1982,
     "careers": {
       "athlete": 1,
-      "polititian": 9,
+      "politician": 9,
       "executive": 55,
       "teacher": 8,
       "manual_worker": 11,
@@ -1287,7 +1287,7 @@
     "year": 1983,
     "careers": {
       "athlete": 1,
-      "polititian": 11,
+      "politician": 11,
       "executive": 57,
       "teacher": 11,
       "manual_worker": 9,
@@ -1300,7 +1300,7 @@
     "year": 1984,
     "careers": {
       "athlete": 1,
-      "polititian": 12,
+      "politician": 12,
       "executive": 60,
       "teacher": 12,
       "manual_worker": 9,
@@ -1314,7 +1314,7 @@
     "year": 1985,
     "careers": {
       "athlete": 1,
-      "polititian": 12,
+      "politician": 12,
       "executive": 57,
       "teacher": 12,
       "manual_worker": 12,
@@ -1329,7 +1329,7 @@
     "year": 1986,
     "careers": {
       "athlete": 1,
-      "polititian": 12,
+      "politician": 12,
       "executive": 52,
       "teacher": 14,
       "manual_worker": 11,
@@ -1344,7 +1344,7 @@
     "careers": {
       "manual_worker": 11,
       "athlete": 1,
-      "polititian": 16,
+      "politician": 16,
       "executive": 59,
       "teacher": 12,
       "civil_service": 4,
@@ -1358,7 +1358,7 @@
     "careers": {
       "manual_worker": 12,
       "athlete": 1,
-      "polititian": 14,
+      "politician": 14,
       "teacher": 19,
       "unknown": 3,
       "executive": 55,
@@ -1372,7 +1372,7 @@
     "careers": {
       "manual_worker": 11,
       "athlete": 1,
-      "polititian": 16,
+      "politician": 16,
       "teacher": 17,
       "executive": 57,
       "civil_service": 6,
@@ -1385,7 +1385,7 @@
     "year": 1990,
     "careers": {
       "manual_worker": 11,
-      "polititian": 15,
+      "politician": 15,
       "teacher": 15,
       "executive": 57,
       "civil_service": 5,
@@ -1398,7 +1398,7 @@
     "year": 1991,
     "careers": {
       "manual_worker": 12,
-      "polititian": 20,
+      "politician": 20,
       "teacher": 17,
       "unknown": 3,
       "executive": 66,
@@ -1415,7 +1415,7 @@
       "unknown": 4,
       "white_collar": 11,
       "manual_worker": 11,
-      "polititian": 13,
+      "politician": 13,
       "civil_service": 5
     },
     "numberOfActiveMps": 120
@@ -1428,7 +1428,7 @@
       "unknown": 4,
       "white_collar": 12,
       "manual_worker": 10,
-      "polititian": 14,
+      "politician": 14,
       "civil_service": 4
     },
     "numberOfActiveMps": 123
@@ -1440,7 +1440,7 @@
       "executive": 58,
       "white_collar": 14,
       "manual_worker": 10,
-      "polititian": 14,
+      "politician": 14,
       "unknown": 3,
       "civil_service": 3
     },
@@ -1453,7 +1453,7 @@
       "executive": 60,
       "unknown": 4,
       "civil_service": 6,
-      "polititian": 15,
+      "politician": 15,
       "manual_worker": 8,
       "white_collar": 13,
       "journalist": 1
@@ -1467,7 +1467,7 @@
       "unknown": 1,
       "teacher": 13,
       "civil_service": 4,
-      "polititian": 14,
+      "politician": 14,
       "manual_worker": 8,
       "white_collar": 11,
       "journalist": 1
@@ -1481,7 +1481,7 @@
       "unknown": 1,
       "teacher": 13,
       "civil_service": 4,
-      "polititian": 13,
+      "politician": 13,
       "manual_worker": 9,
       "white_collar": 10,
       "journalist": 1
@@ -1494,7 +1494,7 @@
       "executive": 61,
       "teacher": 11,
       "civil_service": 5,
-      "polititian": 13,
+      "politician": 13,
       "manual_worker": 7,
       "white_collar": 8,
       "journalist": 1
@@ -1507,7 +1507,7 @@
       "executive": 66,
       "civil_service": 7,
       "teacher": 13,
-      "polititian": 13,
+      "politician": 13,
       "manual_worker": 6,
       "white_collar": 11
     },
@@ -1519,7 +1519,7 @@
       "executive": 57,
       "civil_service": 7,
       "teacher": 10,
-      "polititian": 13,
+      "politician": 13,
       "manual_worker": 4,
       "barrister": 1,
       "white_collar": 11
@@ -1533,7 +1533,7 @@
       "white_collar": 12,
       "teacher": 9,
       "civil_service": 6,
-      "polititian": 12,
+      "politician": 12,
       "manual_worker": 7,
       "barrister": 1
     },
@@ -1546,7 +1546,7 @@
       "white_collar": 9,
       "teacher": 10,
       "civil_service": 6,
-      "polititian": 11,
+      "politician": 11,
       "manual_worker": 5,
       "barrister": 2
     },
@@ -1557,7 +1557,7 @@
     "careers": {
       "executive": 59,
       "teacher": 9,
-      "polititian": 16,
+      "politician": 16,
       "white_collar": 12,
       "civil_service": 4,
       "manual_worker": 5,
@@ -1572,7 +1572,7 @@
     "careers": {
       "executive": 58,
       "teacher": 8,
-      "polititian": 15,
+      "politician": 15,
       "white_collar": 14,
       "civil_service": 3,
       "manual_worker": 7,
@@ -1587,7 +1587,7 @@
     "careers": {
       "executive": 55,
       "teacher": 9,
-      "polititian": 15,
+      "politician": 15,
       "white_collar": 14,
       "civil_service": 4,
       "manual_worker": 8,
@@ -1601,7 +1601,7 @@
     "careers": {
       "executive": 57,
       "teacher": 10,
-      "polititian": 13,
+      "politician": 13,
       "white_collar": 11,
       "civil_service": 3,
       "manual_worker": 7,
@@ -1615,7 +1615,7 @@
     "year": 2007,
     "careers": {
       "executive": 61,
-      "polititian": 23,
+      "politician": 23,
       "teacher": 9,
       "white_collar": 12,
       "unknown": 5,
@@ -1629,7 +1629,7 @@
     "year": 2008,
     "careers": {
       "executive": 53,
-      "polititian": 19,
+      "politician": 19,
       "teacher": 4,
       "white_collar": 11,
       "unknown": 4,
@@ -1645,7 +1645,7 @@
       "unknown": 4,
       "executive": 64,
       "white_collar": 15,
-      "polititian": 23,
+      "politician": 23,
       "teacher": 5,
       "manual_worker": 3,
       "civil_service": 1
@@ -1659,7 +1659,7 @@
       "white_collar": 15,
       "executive": 50,
       "teacher": 6,
-      "polititian": 20,
+      "politician": 20,
       "manual_worker": 3,
       "civil_service": 1
     },
@@ -1672,7 +1672,7 @@
       "unknown": 3,
       "white_collar": 16,
       "teacher": 5,
-      "polititian": 19,
+      "politician": 19,
       "manual_worker": 4,
       "civil_service": 1
     },
@@ -1686,7 +1686,7 @@
       "manual_worker": 4,
       "white_collar": 15,
       "teacher": 5,
-      "polititian": 19,
+      "politician": 19,
       "civil_service": 1
     },
     "numberOfActiveMps": 99
@@ -1698,7 +1698,7 @@
       "executive": 63,
       "white_collar": 14,
       "teacher": 5,
-      "polititian": 23,
+      "politician": 23,
       "manual_worker": 6,
       "civil_service": 4
     },
@@ -1710,7 +1710,7 @@
       "white_collar": 16,
       "unknown": 1,
       "executive": 55,
-      "polititian": 22,
+      "politician": 22,
       "manual_worker": 6,
       "teacher": 4,
       "civil_service": 3
@@ -1720,7 +1720,7 @@
   {
     "year": 2015,
     "careers": {
-      "polititian": 21,
+      "politician": 21,
       "white_collar": 10,
       "unknown": 1,
       "executive": 55,
@@ -1733,7 +1733,7 @@
   {
     "year": 2016,
     "careers": {
-      "polititian": 23,
+      "politician": 23,
       "white_collar": 13,
       "unknown": 1,
       "executive": 58,
