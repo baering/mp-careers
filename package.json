@@ -1,0 +1,20 @@
+{
+  "name": "mp-careers",
+  "version": "1.0.0",
+  "description": "Fetches careers for all mps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "baering",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1"
+  }
+}
