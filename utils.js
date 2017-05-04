@@ -67,3 +67,12 @@ export function cleanString(source, opts) {
     return validCharacterLookup[char]
   }).join('')
 }
+
+export function numberIsBetween(number, min, max) {
+  if (min === null) {
+    return number <= max
+  } else if (max === null) {
+    return number >= min
+  }
+  return number >= min && number <= max
+}
