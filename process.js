@@ -1,9 +1,16 @@
 import mpCareers from './careers.json'
 import { guessCareer } from './career-guesser'
-import { writeFile, numberIsBetween } from './utils'
+import { writeJson, writeText, numberIsBetween, generateVisualizationHtml } from './utils'
+
+async function generateVisualization(csv, title, maxValue) {
+  const chartMaxY = parseInt(maxValue * 1.15, 10)
+  const html = generateVisualizationHtml(csv, title, chartMaxY)
+  await writeText(`visualized/${title}.html`, html)
+}
 
 async function generateYearlySummaries(mps) {
   const summaries = []
+  const summariesByCareer = {}
 
   // Find the year to base the summary off of
   let startYear = 2017
@@ -14,11 +21,11 @@ async function generateYearlySummaries(mps) {
     }
   }
 
-  const currentYear = new Date().getFullYear()
-  for (let i = startYear; i < currentYear; i++) {
-    const activeMps = mps.filter(mp => numberIsBetween(i, mp.mpStartYear, mp.mpEndYear))
+  const yearNow = new Date().getFullYear()
+  for (let currentYear = startYear; currentYear < yearNow; currentYear++) {
+    const activeMps = mps.filter(mp => numberIsBetween(currentYear, mp.mpStartYear, mp.mpEndYear))
     const summary = {
-      year: i,
+      year: currentYear,
       careers: {},
       numberOfActiveMps: activeMps.length,
     }
@@ -27,12 +34,49 @@ async function generateYearlySummaries(mps) {
         summary.careers[mp.careerGuess] = 0
       }
       summary.careers[mp.careerGuess] += 1
+
+      if (summariesByCareer[mp.careerGuess] === undefined) {
+        summariesByCareer[mp.careerGuess] = {}
+      }
+
+      if (summariesByCareer[mp.careerGuess][currentYear] === undefined) {
+        summariesByCareer[mp.careerGuess][currentYear] = 0
+      }
+      summariesByCareer[mp.careerGuess][currentYear] += 1
     })
 
     summaries.push(summary)
   }
 
-  await writeFile('careers-by-year.json', summaries)
+  await writeJson('careers-by-year.json', summaries)
+  let maxValue = 0
+  const csvs = []
+  for (const career of Object.keys(summariesByCareer)) {
+    const careerSummary = summariesByCareer[career]
+
+    let csvResult = 'year,number\n'
+    for (let currentYear = startYear; currentYear < yearNow; currentYear++) {
+      const valueForYear = careerSummary[currentYear]
+      let value = valueForYear !== undefined ? valueForYear : 0
+
+      if (value > maxValue) {
+        maxValue = value
+      }
+
+      csvResult += `01-${currentYear},${value}\n`
+      csvs.push({
+        career,
+        csv: csvResult,
+      })
+    }
+    await writeText(`csv/${career}.csv`, csvResult)
+  }
+
+  for (const csv of csvs) {
+    await generateVisualization(csv.csv, csv.career, maxValue)
+  }
+
+  await writeText(`csv/chart-max.csv`, `max value for charts should be at least ${maxValue}`)
 }
 
 async function guessCareers(mps) {
@@ -41,7 +85,7 @@ async function guessCareers(mps) {
     mp.careerGuess = careerGuess
   }
 
-  await writeFile('careers-with-guess.json', mps)
+  await writeJson('careers-with-guess.json', mps)
 }
 
 // Appends careerGuess property to each mp

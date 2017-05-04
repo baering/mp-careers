@@ -1,4 +1,4 @@
-import { fetchXml, writeFile } from './utils'
+import { fetchXml, writeJson } from './utils'
 
 const urls = {
   mps: 'http://www.althingi.is/altext/xml/thingmenn/',
@@ -43,7 +43,7 @@ async function fetchMpCareers(url) {
     }
   }
 
-  await writeFile('careers.json', careers)
+  await writeJson('careers.json', careers)
 }
 
 fetchMpCareers(urls.mps)
