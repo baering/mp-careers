@@ -89,10 +89,29 @@ export function numberIsBetween(number, min, max) {
   return number >= min && number <= max
 }
 
-export function generateVisualizationHtml(csv, career, max) {
+const careerNameToDisplayNameMap = {
+  politician: 'Stjórnmálamaður',
+  executive: 'Stjórnandi',
+  civil_service: 'Opinber stjórnsýsla',
+  white_collar: 'Skrifstofustarf með sérmenntun',
+  barrister: 'Lögmaður',
+  teacher: 'Kennari',
+  journalist: 'Fjölmiðlamaður',
+  athlete: 'Íþróttamaður',
+  manual_worker: 'Verkamaður',
+  unknown: 'Ekki vitað'
+}
+
+export function careerNameToDisplayName(careerName) {
+  return careerNameToDisplayNameMap[careerName]
+}
+
+export function generateVisualizationHtml(csv, career, max, title) {
   return `<!DOCTYPE html>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
 <svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<style>* { font-family: 'Arial' }</style>
 <script>
 var bardata = \`${csv}\`
 var svg = d3.select("svg"),
@@ -140,6 +159,13 @@ g.append("g")
     .attr("dy", "0.71em")
     .attr("text-anchor", "end")
     .text("Number of mps");
+
+g.append("text")
+    .attr("x", (width / 2))
+    .attr("y", 8)
+    .attr("text-anchor", "middle")
+    .style("font-size", "32px")
+    .text("${title}");
 
 </script>`
 }

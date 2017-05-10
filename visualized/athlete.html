@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
 <svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<style>* { font-family: 'Arial' }</style>
 <script>
 var bardata = `year,number
 01-1875,0
@@ -170,7 +172,7 @@ var data = d3.csvParse(bardata, function(d) {
 })
 
 x.domain(d3.extent(data, function(d) { return d.year; }));
-y.domain([0, 77]);
+y.domain([0, 73]);
 area.y0(y(0));
 
 g.append("path")
@@ -191,5 +193,12 @@ g.append("g")
     .attr("dy", "0.71em")
     .attr("text-anchor", "end")
     .text("Number of mps");
+
+g.append("text")
+    .attr("x", (width / 2))
+    .attr("y", 8)
+    .attr("text-anchor", "middle")
+    .style("font-size", "32px")
+    .text("Íþróttamaður");
 
 </script>

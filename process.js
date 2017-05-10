@@ -1,11 +1,18 @@
 import mpCareers from './careers.json'
 import { guessCareer } from './career-guesser'
-import { writeJson, writeText, numberIsBetween, generateVisualizationHtml } from './utils'
+import {
+  careerNameToDisplayName,
+  generateVisualizationHtml,
+  numberIsBetween,
+  writeJson,
+  writeText,
+} from './utils'
 
-async function generateVisualization(csv, title, maxValue) {
-  const chartMaxY = parseInt(maxValue * 1.15, 10)
-  const html = generateVisualizationHtml(csv, title, chartMaxY)
-  await writeText(`visualized/${title}.html`, html)
+async function generateVisualization(csv, careerName, maxValue) {
+  const chartMaxY = parseInt(maxValue * 1.1, 10)
+  const chartTitle = careerNameToDisplayName(careerName)
+  const html = generateVisualizationHtml(csv, careerName, chartMaxY, chartTitle)
+  await writeText(`visualized/${careerName}.html`, html)
 }
 
 async function generateYearlySummaries(mps) {
@@ -51,7 +58,8 @@ async function generateYearlySummaries(mps) {
   await writeJson('careers-by-year.json', summaries)
   let maxValue = 0
   const csvs = []
-  for (const career of Object.keys(summariesByCareer)) {
+  const careersInSummary = Object.keys(summariesByCareer)
+  for (const career of careersInSummary) {
     const careerSummary = summariesByCareer[career]
 
     let csvResult = 'year,number\n'
@@ -64,11 +72,11 @@ async function generateYearlySummaries(mps) {
       }
 
       csvResult += `01-${currentYear},${value}\n`
-      csvs.push({
-        career,
-        csv: csvResult,
-      })
     }
+    csvs.push({
+      career,
+      csv: csvResult,
+    })
     await writeText(`csv/${career}.csv`, csvResult)
   }
 
