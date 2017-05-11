@@ -1743,5 +1743,20 @@
       "journalist": 1
     },
     "numberOfActiveMps": 109
+  },
+  {
+    "year": 2017,
+    "careers": {
+      "white_collar": 18,
+      "politician": 16,
+      "executive": 40,
+      "civil_service": 1,
+      "teacher": 2,
+      "journalist": 1,
+      "manual_worker": 6,
+      "barrister": 1,
+      "unknown": 1
+    },
+    "numberOfActiveMps": 86
   }
 ]

@@ -29,7 +29,7 @@ async function generateYearlySummaries(mps) {
   }
 
   const yearNow = new Date().getFullYear()
-  for (let currentYear = startYear; currentYear < yearNow; currentYear++) {
+  for (let currentYear = startYear; currentYear <= yearNow; currentYear++) {
     const activeMps = mps.filter(mp => numberIsBetween(currentYear, mp.mpStartYear, mp.mpEndYear))
     const summary = {
       year: currentYear,
@@ -63,7 +63,7 @@ async function generateYearlySummaries(mps) {
     const careerSummary = summariesByCareer[career]
 
     let csvResult = 'year,number\n'
-    for (let currentYear = startYear; currentYear < yearNow; currentYear++) {
+    for (let currentYear = startYear; currentYear <= yearNow; currentYear++) {
       const valueForYear = careerSummary[currentYear]
       let value = valueForYear !== undefined ? valueForYear : 0
 
